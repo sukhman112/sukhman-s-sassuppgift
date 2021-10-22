@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  color: #FFF;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container h1 {
+  font-weight: 700;
+}
+
+.container h2 {
+  font-weight: 300;
+}
+
+.container .imageCol {
+  width: 50%;
+  height: 100%;
+}
+
+.container .infoCol {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#startB {
+  background-image: url("../images/start.jpg");
+  background-size: cover;
+}
+
+#startI {
+  background-color: #bd3b3b;
+}
+
+#scoutI {
+  background-color: #ef9849;
+}
+
+#scoutB {
+  background-image: url("../images/scout.png");
+  background-size: cover;
+}
+
+#soldierI {
+  background-color: #34302d;
+}
+
+#soldierB {
+  background-image: url("../images/soldier.jpg");
+  background-size: cover;
+}
+
+#pyroI {
+  background-color: #9d312f;
+}
+
+#pyroB {
+  background-image: url("../images/pyro.jpg");
+  background-size: cover;
+}
+
+#demomanI {
+  background-color: #768a88;
+}
+
+#demomanB {
+  background-image: url("../images/demoman.jpg");
+  background-size: cover;
+}
+
+#heavyI {
+  background-color: #c1a18a;
+}
+
+#heavyB {
+  background-image: url("../images/heavy.jpg");
+  background-size: cover;
+}
+
+#engineerI {
+  background-color: #6a4535;
+}
+
+#engineerB {
+  background-image: url("../images/engineer.png");
+  background-size: cover;
+}
+
+#medicI {
+  background-color: #395c78;
+}
+
+#medicB {
+  background-image: url("../images/medic.jpg");
+  background-size: cover;
+}
+
+#medicI {
+  background-color: #395c78;
+}
+
+#medicB {
+  background-image: url("../images/medic.jpg");
+  background-size: cover;
+}
+
+#sniperI {
+  background-color: #f08149;
+}
+
+#sniperB {
+  background-image: url("../images/sniper.jpg");
+  background-size: cover;
+}
+
+#spyI {
+  background-color: #913a1e;
+}
+
+#spyB {
+  background-image: url("../images/spy.jpg");
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

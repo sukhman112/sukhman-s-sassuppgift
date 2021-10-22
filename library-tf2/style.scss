@@ -1,0 +1,100 @@
+@import '_mixins.scss';
+@import '_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    color: $white;
+}
+.container {
+    @include fullWH;
+    @include twoRowsCols;
+    @include applyFont;
+    .imageCol {
+        @include Col;
+    }
+    .infoCol {
+        @include Col;
+        @include flexCenter;
+        flex-direction: column;
+    }
+}
+#startB {
+    @include applyBg("../images/start.jpg")
+}
+#startI {
+    background-color: $start;
+}
+
+#scoutI {
+    background-color: $scout;
+}
+#scoutB {
+    @include applyBg("../images/scout.png")
+}
+
+#soldierI {
+    background-color: $soldier;
+}
+#soldierB {
+    @include applyBg("../images/soldier.jpg")
+}
+
+#pyroI {
+    background-color: $pyro;
+}
+#pyroB {
+    @include applyBg("../images/pyro.jpg")
+}
+
+#demomanI {
+    background-color: $demoman;
+}
+#demomanB {
+    @include applyBg("../images/demoman.jpg")
+}
+
+#heavyI {
+    background-color: $heavy;
+}
+#heavyB {
+    @include applyBg("../images/heavy.jpg")
+}
+
+#engineerI {
+    background-color: $engineer;
+}
+#engineerB {
+    @include applyBg("../images/engineer.png")
+}
+
+#medicI {
+    background-color: $medic;
+}
+#medicB {
+    @include applyBg("../images/medic.jpg")
+}
+
+#medicI {
+    background-color: $medic;
+}
+#medicB {
+    @include applyBg("../images/medic.jpg")
+}
+
+#sniperI {
+    background-color: $sniper;
+}
+#sniperB {
+    @include applyBg("../images/sniper.jpg")
+}
+
+#spyI {
+    background-color: $spy;
+}
+#spyB {
+    @include applyBg("../images/spy.jpg")
+}

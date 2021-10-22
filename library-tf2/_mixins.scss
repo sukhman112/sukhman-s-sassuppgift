@@ -1,0 +1,32 @@
+@mixin fullWH {
+    width: 100vw;
+    height: 100vh;
+}
+@mixin twoRowsCols {
+    display: flex;
+    flex-direction: row;
+}
+@mixin Col {
+    width: 50%;
+    height: 100%;
+}
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin applyBg($url) {
+    background-image: url($url);
+    background-size: cover;
+}
+
+@mixin applyFont {
+    font-family: 'Quicksand', sans-serif;
+    h1 {
+        font-weight: 700;
+    }
+    h2 {
+        font-weight: 300;
+    }
+}
